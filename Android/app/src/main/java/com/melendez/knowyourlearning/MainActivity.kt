@@ -9,9 +9,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.melendez.knowyourlearning.Pages.ImportPage
-import com.melendez.knowyourlearning.Pages.MainPage
-import com.melendez.knowyourlearning.Pages.SettingsPage
+import com.melendez.knowyourlearning.Screen.ImportPage
+import com.melendez.knowyourlearning.Screen.MainPage
+import com.melendez.knowyourlearning.Screen.OpeningPage
+import com.melendez.knowyourlearning.Screen.SettingsPage
 import com.melendez.knowyourlearning.ui.theme.KnowYourLearningTheme
 
 val TAG: String = "MainActivity-Melendez"
@@ -31,8 +32,11 @@ class MainActivity : ComponentActivity() {
 fun NavigationRoot() {
     val navController = rememberNavController()
     NavHost(
-        navController = navController, startDestination = "Main"
+        navController = navController, startDestination = "Opening"
     ) {
+        composable(route = "Opening") {
+            OpeningPage(navController = navController)
+        }
         composable(route = "Main") {
             MainPage(navController = navController)
         }
@@ -47,13 +51,13 @@ fun NavigationRoot() {
 
 fun Navigation(
     navController: NavHostController,
-    TAG: String,
     Start: String,
     ViewName: String,
     route: String
 ) {
     val Content1: String = Start + ": " + ViewName + "按钮被点击了"
     val Content2: String = Start + ": 已跳转至" + route + "Page"
+
     Log.d(TAG, Content1)
     navController.navigate(route)
     Log.d(TAG, Content2)
