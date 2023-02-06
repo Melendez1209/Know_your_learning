@@ -5,4 +5,8 @@
     <string name="importing">导入</string>
     <string name="settings">设置</string>
     <string name="logo">图标</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">取消</string>
+    <string name="successful_entry">录入成功</string>
+    <string name="exam_date">考试日期</string>
 </resources>

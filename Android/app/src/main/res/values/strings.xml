@@ -4,4 +4,8 @@
     <string name="importing">Import</string>
     <string name="settings">Settings</string>
     <string name="logo">Logo</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="successful_entry">Successful entry</string>
+    <string name="exam_date">Exan Date</string>
 </resources>

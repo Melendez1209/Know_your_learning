@@ -1,5 +1,6 @@
 package com.melendez.knowyourlearning.Screen
 
+import android.util.Log
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -9,6 +10,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Icon
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.getValue
@@ -18,6 +20,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
@@ -28,6 +31,8 @@ import com.melendez.knowyourlearning.R
 import com.melendez.knowyourlearning.ui.theme.Purple40
 import com.melendez.knowyourlearning.ui.theme.Purple80
 import kotlinx.coroutines.delay
+
+val TAG: String = "OpeningScreen.kt"
 
 @Composable
 fun OpeningPage(navController: NavHostController) {
@@ -44,6 +49,7 @@ fun OpeningPage(navController: NavHostController) {
     //SysBarsColor
     val systemUiController = rememberSystemUiController()
     val isDark = isSystemInDarkTheme()
+
     SideEffect {
         systemUiController.setSystemBarsColor(
             color = if (isDark) Purple40 else Purple80
@@ -60,6 +66,18 @@ fun OpeningPage(navController: NavHostController) {
             ViewName = "None",
             route = "Main"
         )
+        Log.d(TAG, "OpeningPage: Launched")
+    }
+
+    DisposableEffect(Unit) {
+        onDispose {
+            //Set System Bars Color
+            systemUiController.setSystemBarsColor(
+                color = if (isDark) Color.Black else Color.White
+            )
+            Log.d(TAG, "OpeningPage: Destroyed")
+        }
+
     }
 
     Box(

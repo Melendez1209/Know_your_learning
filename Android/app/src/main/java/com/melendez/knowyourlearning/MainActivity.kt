@@ -53,10 +53,10 @@ fun Navigation(
     navController: NavHostController,
     Start: String,
     ViewName: String,
-    route: String
+    route: String,
 ) {
-    val Content1: String = Start + ": " + ViewName + "按钮被点击了"
-    val Content2: String = Start + ": 已跳转至" + route + "Page"
+    val Content1: String = Start + ": " + ViewName + "Clicked"
+    val Content2: String = Start + ": Jumped to" + route + "Page"
 
     Log.d(TAG, Content1)
     navController.navigate(route)
