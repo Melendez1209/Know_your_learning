@@ -4,8 +4,13 @@
     <string name="importing">Import</string>
     <string name="settings">Settings</string>
     <string name="logo">Logo</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="successful_entry">Successful entry</string>
     <string name="exam_date">Exan Date</string>
+    <string name="none_app">No suitable application found.</string>
+    <string name="inspiration_zone">Inspiration Zone</string>
+    <string name="zhihu">Zhihu</string>
+    <string name="tiktok">TikTok</string>
+    <string name="bilibili">Bilibili</string>
 </resources>

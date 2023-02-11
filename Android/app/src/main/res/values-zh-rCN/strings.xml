@@ -9,4 +9,9 @@
     <string name="cancel">取消</string>
     <string name="successful_entry">录入成功</string>
     <string name="exam_date">考试日期</string>
+    <string name="none_app">未找到合适的应用。</string>
+    <string name="zhihu">知乎</string>
+    <string name="tiktok">抖音</string>
+    <string name="bilibili">哔哩哔哩</string>
+    <string name="inspiration_zone">励志区</string>
 </resources>
