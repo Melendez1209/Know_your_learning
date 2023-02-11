@@ -10,7 +10,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.melendez.knowyourlearning.Screen.ImportPage
-import com.melendez.knowyourlearning.Screen.MainPage
+import com.melendez.knowyourlearning.Screen.MainScreen
 import com.melendez.knowyourlearning.Screen.OpeningPage
 import com.melendez.knowyourlearning.Screen.SettingsPage
 import com.melendez.knowyourlearning.ui.theme.KnowYourLearningTheme
@@ -38,7 +38,7 @@ fun NavigationRoot() {
             OpeningPage(navController = navController)
         }
         composable(route = "Main") {
-            MainPage(navController = navController)
+            MainScreen(navController = navController)
         }
         composable(route = "Import") {
             ImportPage(navController = navController)
