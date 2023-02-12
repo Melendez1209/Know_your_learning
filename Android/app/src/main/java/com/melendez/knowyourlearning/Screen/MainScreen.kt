@@ -16,41 +16,51 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
+import com.melendez.knowyourlearning.R
+import com.melendez.knowyourlearning.Screen.Pages.AccountPage
+import com.melendez.knowyourlearning.Screen.Pages.AnalysisPage
 import com.melendez.knowyourlearning.Screen.Pages.HomePage
+
 
 @OptIn(ExperimentalMaterial3Api::class)
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
 @Composable
 fun MainScreen(navController: NavHostController) {
-    Scaffold(bottomBar = { BottomNavigationBar() }) {
-        HomePage(navController = navController)
-    }
-}
-
-@Preview
-@Composable
-fun BottomNavigationBar() {
 
     var selectedItem by remember { mutableStateOf(0) }
-    val items = listOf("Home", "Analysis", "Account")
+    val items = listOf(
+        stringResource(R.string.home),
+        stringResource(R.string.analysis),
+        stringResource(R.string.account)
+    )
 
-    NavigationBar() {
-        items.forEachIndexed { index, item ->
-            NavigationBarItem(
-                selected = selectedItem == index,
-                onClick = { selectedItem = index },
-                icon = {
-                    Icon(
-                        imageVector = if (index == 0) Icons.Rounded.Home
-                        else if (index == 1) Icons.Rounded.ThumbUp
-                        else Icons.Rounded.AccountBox,
-                        contentDescription = item
-                    )
-                },
-                label = { Text(item) }
-            )
+    Scaffold(bottomBar = {
+        NavigationBar() {
+            items.forEachIndexed { index, item ->
+                NavigationBarItem(
+                    selected = selectedItem == index,
+                    onClick = { selectedItem = index },
+                    icon = {
+                        Icon(
+                            imageVector = when (index) {
+                                0 -> Icons.Rounded.Home
+                                1 -> Icons.Rounded.ThumbUp
+                                else -> Icons.Rounded.AccountBox
+                            },
+                            contentDescription = item
+                        )
+                    },
+                    label = { Text(item) }
+                )
+            }
+        }
+    }) {
+        when (selectedItem) {
+            0 -> HomePage(navController = navController)
+            1 -> AnalysisPage()
+            else -> AccountPage()
         }
     }
 }

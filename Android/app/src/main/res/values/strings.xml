@@ -13,4 +13,8 @@
     <string name="zhihu">Zhihu</string>
     <string name="tiktok">TikTok</string>
     <string name="bilibili">Bilibili</string>
+    <string name="avatar">Avatar</string>
+    <string name="home">Home</string>
+    <string name="analysis">Analysis</string>
+    <string name="account">Account</string>
 </resources>
