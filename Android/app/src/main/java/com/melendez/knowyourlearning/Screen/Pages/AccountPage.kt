@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -19,7 +20,8 @@ fun AccountPage() {
         Box(Modifier.fillMaxWidth()) {
             Image(
                 painter = painterResource(id = R.drawable.avatar),
-                contentDescription = stringResource(R.string.avatar)
+                contentDescription = stringResource(R.string.avatar),
+                modifier = Modifier.align(alignment = Alignment.TopCenter)
             )
         }
     }

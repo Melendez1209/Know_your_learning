@@ -17,4 +17,7 @@
     <string name="home">Home</string>
     <string name="analysis">Analysis</string>
     <string name="account">Account</string>
+    <string name="Chinese">Chinese</string>
+    <string name="math">Math</string>
+    <string name="english">English</string>
 </resources>
