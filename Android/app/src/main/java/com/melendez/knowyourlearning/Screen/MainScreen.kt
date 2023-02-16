@@ -37,7 +37,7 @@ fun MainScreen(navController: NavHostController) {
     )
 
     Scaffold(bottomBar = {
-        NavigationBar() {
+        NavigationBar {
             items.forEachIndexed { index, item ->
                 NavigationBarItem(
                     selected = selectedItem == index,
