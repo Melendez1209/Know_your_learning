@@ -1,0 +1,7 @@
+{
+  "src": [
+    "pages/LauncherPage",
+    "pages/Index",
+    "pages/AdvertisingPage"
+  ]
+}

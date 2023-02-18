@@ -20,7 +20,7 @@ export default class CommonConstants {
   /**
    * Preference saved file name.
    */
-  static readonly PREFERENCES_FILE_NAME: string = 'myStore';
+  static readonly PREFERENCES_FILE_NAME: string = 'LearningStore';
 
   /**
    * Launcher page count down.
@@ -153,14 +153,9 @@ export default class CommonConstants {
   static readonly FULL_HEIGHT: string = '100%';
 
   /**
-   * Privacy page url.
-   */
-  static readonly PRIVACY_PAGE_URL: string = 'pages/PrivacyPage';
-
-  /**
    * App home page url.
    */
-  static readonly APP_HOME_PAGE_URL: string = 'pages/AppHomePage';
+  static readonly APP_HOME_PAGE_URL: string = 'pages/Index';
 
   /**
    * Common layout weight.
