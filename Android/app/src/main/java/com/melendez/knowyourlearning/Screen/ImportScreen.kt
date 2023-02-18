@@ -1,7 +1,6 @@
 package com.melendez.knowyourlearning.Screen
 
 import android.util.Log
-import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,13 +24,13 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
+import com.google.accompanist.pager.HorizontalPagerIndicator
 import com.google.accompanist.pager.rememberPagerState
 import com.melendez.knowyourlearning.R
 import com.vanpra.composematerialdialogs.MaterialDialog
@@ -65,7 +64,6 @@ fun ImportPagePreview() {
     val dateDialogState = rememberMaterialDialogState()
 
     //Value for page
-
     val Chinese = stringResource(R.string.Chinese)
     val Math = stringResource(R.string.math)
     val English = stringResource(R.string.english)
@@ -94,12 +92,16 @@ fun ImportPagePreview() {
                     }
                 }
             }
-            HorizontalPager(state = state, count = 1) { page ->
-                Card(modifier = Modifier.background(Color.Green)) {
-                    Log.d(TAG, "ImportPagePreview: Loading:" + page)
-                    Text(text = "Demo")
+            HorizontalPager(state = state, count = tabs.size) { page ->
+                Card() {
+                    Log.d(TAG, "ImportPagePreview: Loading:" + tabs[page] + page)
+                    Text(text = "Page:$page")
                 }
             }
+            HorizontalPagerIndicator(
+                pagerState = state,
+                modifier = Modifier.align(alignment = Alignment.CenterHorizontally)
+            )
 
             Button(
                 shape = RoundedCornerShape(6.dp),
