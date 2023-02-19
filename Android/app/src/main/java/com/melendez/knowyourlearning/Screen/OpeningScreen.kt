@@ -21,7 +21,7 @@ import kotlinx.coroutines.delay
 val TAG: String = "OpeningScreen.kt"
 
 @Composable
-fun OpeningPage(navController: NavHostController) {
+fun OpeningScreen(navController: NavHostController) {
 
     LaunchedEffect(key1 = true) {
         delay(1750)
@@ -32,7 +32,7 @@ fun OpeningPage(navController: NavHostController) {
             ViewName = "None",
             route = "Main"
         )
-        Log.d(TAG, "OpeningPage: Launched")
+        Log.d(TAG, "OpeningScreen: Launched")
     }
 
     Surface(modifier = Modifier.fillMaxSize()) {

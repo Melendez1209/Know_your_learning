@@ -22,4 +22,6 @@
     <string name="english">English</string>
     <string name="full_marks">Full marks:</string>
     <string name="mark">Mark:</string>
+    <string name="preference">Preference</string>
+    <string name="person_setting">Personal settings</string>
 </resources>

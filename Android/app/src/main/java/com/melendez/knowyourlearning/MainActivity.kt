@@ -9,10 +9,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.melendez.knowyourlearning.Screen.ImportPage
+import com.melendez.knowyourlearning.Screen.ImportScreen
 import com.melendez.knowyourlearning.Screen.MainScreen
-import com.melendez.knowyourlearning.Screen.OpeningPage
-import com.melendez.knowyourlearning.Screen.SettingsPage
+import com.melendez.knowyourlearning.Screen.OpeningScreen
+import com.melendez.knowyourlearning.Screen.SettingsScreen
 import com.melendez.knowyourlearning.ui.theme.KnowYourLearningTheme
 
 val TAG: String = "MainActivity-Melendez"
@@ -35,16 +35,16 @@ fun NavigationRoot() {
         navController = navController, startDestination = "Opening"
     ) {
         composable(route = "Opening") {
-            OpeningPage(navController = navController)
+            OpeningScreen(navController = navController)
         }
         composable(route = "Main") {
             MainScreen(navController = navController)
         }
         composable(route = "Import") {
-            ImportPage(navController = navController)
+            ImportScreen(navController = navController)
         }
         composable(route = "Settings") {
-            SettingsPage(navController = navController)
+            SettingsScreen(navController = navController)
         }
     }
 }

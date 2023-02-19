@@ -23,4 +23,6 @@
     <string name="english">英语</string>
     <string name="full_marks">满分：</string>
     <string name="mark">得分：</string>
+    <string name="preference">偏好设置</string>
+    <string name="person_setting">个人设置</string>
 </resources>

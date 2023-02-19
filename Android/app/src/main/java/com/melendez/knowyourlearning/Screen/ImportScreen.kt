@@ -45,14 +45,14 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
 @Composable
-fun ImportPage(navController: NavHostController) {
-    ImportPagePreview()
+fun ImportScreen(navController: NavHostController) {
+    ImportScreenPreview()
 }
 
 @OptIn(ExperimentalPagerApi::class)
 @Preview
 @Composable
-fun ImportPagePreview() {
+fun ImportScreenPreview() {
 
     //Value for date picker
     var pickedDate by remember {
@@ -103,7 +103,8 @@ fun ImportPagePreview() {
             HorizontalPager(
                 state = state,
                 count = tabs.size,
-                modifier = Modifier.padding(vertical = 12.dp)
+                modifier = Modifier.padding(vertical = 12.dp),
+                itemSpacing = 12.dp
             ) { page ->
                 Card(modifier = Modifier.fillMaxWidth()) {
 
