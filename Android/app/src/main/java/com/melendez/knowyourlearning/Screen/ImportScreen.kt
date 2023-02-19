@@ -2,8 +2,10 @@ package com.melendez.knowyourlearning.Screen
 
 import android.util.Log
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -25,12 +27,14 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
+import com.chargemap.compose.numberpicker.NumberPicker
 import com.google.accompanist.pager.ExperimentalPagerApi
 import com.google.accompanist.pager.HorizontalPager
-import com.google.accompanist.pager.HorizontalPagerIndicator
 import com.google.accompanist.pager.rememberPagerState
 import com.melendez.knowyourlearning.R
 import com.vanpra.composematerialdialogs.MaterialDialog
@@ -79,7 +83,10 @@ fun ImportPagePreview() {
     Surface(modifier = Modifier.fillMaxSize()) {
         Column(modifier = Modifier.padding(12.dp)) {
 
-            ScrollableTabRow(selectedTabIndex = state.currentPage) {
+            ScrollableTabRow(
+                selectedTabIndex = state.currentPage,
+                modifier = Modifier.fillMaxWidth()
+            ) {
                 tabs.forEachIndexed { index, tab ->
                     Box(
                         modifier = Modifier
@@ -92,16 +99,71 @@ fun ImportPagePreview() {
                     }
                 }
             }
-            HorizontalPager(state = state, count = tabs.size) { page ->
-                Card() {
+
+            HorizontalPager(
+                state = state,
+                count = tabs.size,
+                modifier = Modifier.padding(vertical = 12.dp)
+            ) { page ->
+                Card(modifier = Modifier.fillMaxWidth()) {
+
                     Log.d(TAG, "ImportPagePreview: Loading:" + tabs[page] + page)
-                    Text(text = "Page:$page")
+                    val subject = tabs[page]
+                    var fullMark by remember { mutableStateOf(150) }
+
+                    Text(
+                        text = subject,
+                        fontSize = 20.sp,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier
+                            .align(alignment = Alignment.CenterHorizontally)
+                            .padding(vertical = 4.dp)
+                    )
+
+                    Row(
+                        modifier = Modifier
+                            .padding(4.dp)
+                            .fillMaxWidth(),
+                        horizontalArrangement = Arrangement.SpaceAround
+                    ) {
+                        Row {
+                            Text(
+                                text = stringResource(R.string.full_marks),
+                                fontSize = 16.sp,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier.align(alignment = Alignment.CenterVertically)
+                            )
+                            NumberPicker(
+                                value = fullMark,
+                                onValueChange = {
+                                    fullMark = it
+                                    Log.i(TAG, "ImportPagePreview: fullMark:" + fullMark)
+                                },
+                                range = 70..230
+                            )
+                        }
+
+                        Row {
+                            var Mark by remember { mutableStateOf(fullMark - 15) }
+                            Text(
+                                text = stringResource(R.string.mark),
+                                fontSize = 16.sp,
+                                fontWeight = FontWeight.Bold,
+                                modifier = Modifier.align(alignment = Alignment.CenterVertically)
+                            )
+                            NumberPicker(
+                                value = Mark,
+                                onValueChange = {
+                                    Mark = it
+                                    Log.i(TAG, "ImportPagePreview: Mark:" + Mark)
+                                },
+                                range = 0..fullMark
+                            )
+                        }
+                    }
+
                 }
             }
-            HorizontalPagerIndicator(
-                pagerState = state,
-                modifier = Modifier.align(alignment = Alignment.CenterHorizontally)
-            )
 
             Button(
                 shape = RoundedCornerShape(6.dp),
@@ -110,6 +172,7 @@ fun ImportPagePreview() {
             ) { Text(text = stringResource(R.string.ok)) }
         }
     }
+
     MaterialDialog(dialogState = dateDialogState, shape = RoundedCornerShape(12.dp), buttons = {
         positiveButton(text = stringResource(R.string.ok)) {
             dateDialogState.hide()

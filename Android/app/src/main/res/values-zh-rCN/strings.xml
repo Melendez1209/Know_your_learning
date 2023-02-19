@@ -21,4 +21,6 @@
     <string name="Chinese">语文</string>
     <string name="math">数学</string>
     <string name="english">英语</string>
+    <string name="full_marks">满分：</string>
+    <string name="mark">得分：</string>
 </resources>

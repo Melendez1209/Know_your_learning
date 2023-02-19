@@ -20,4 +20,6 @@
     <string name="Chinese">Chinese</string>
     <string name="math">Math</string>
     <string name="english">English</string>
+    <string name="full_marks">Full marks:</string>
+    <string name="mark">Mark:</string>
 </resources>
