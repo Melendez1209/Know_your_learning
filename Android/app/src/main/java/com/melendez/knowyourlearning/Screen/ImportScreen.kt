@@ -72,9 +72,7 @@ fun ImportScreenPreview() {
     val Math = stringResource(R.string.math)
     val English = stringResource(R.string.english)
 
-    val tabs = remember {
-        mutableStateListOf(Chinese, Math, English)
-    }
+    val tabs = remember { mutableStateListOf(Chinese, Math, English) }
 
     val state = rememberPagerState(initialPage = 0)
     val scope = rememberCoroutineScope()
@@ -92,7 +90,7 @@ fun ImportScreenPreview() {
                         modifier = Modifier
                             .height(30.dp)
                             .fillMaxWidth()
-                            .clickable { scope.launch { state.scrollToPage(index, 0f) } },
+                            .clickable { scope.launch { state.animateScrollToPage(index, 0f) } },
                         contentAlignment = Alignment.TopCenter
                     ) {
                         Text(text = tab, modifier = Modifier.align(alignment = Alignment.Center))
@@ -111,6 +109,7 @@ fun ImportScreenPreview() {
                     Log.d(TAG, "ImportPagePreview: Loading:" + tabs[page] + page)
                     val subject = tabs[page]
                     var fullMark by remember { mutableStateOf(150) }
+                    var Mark by remember { mutableStateOf(fullMark - 15) }
 
                     Text(
                         text = subject,
@@ -140,12 +139,11 @@ fun ImportScreenPreview() {
                                     fullMark = it
                                     Log.i(TAG, "ImportPagePreview: fullMark:" + fullMark)
                                 },
-                                range = 70..230
+                                range = Mark..230
                             )
                         }
 
                         Row {
-                            var Mark by remember { mutableStateOf(fullMark - 15) }
                             Text(
                                 text = stringResource(R.string.mark),
                                 fontSize = 16.sp,
