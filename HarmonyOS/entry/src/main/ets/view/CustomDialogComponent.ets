@@ -11,7 +11,7 @@ export default struct CustomDialogComponent {
     Column() {
       Text($r('app.string.dialog_text_title'))
         .width(CommonConstants.DIALOG_WIDTH_PERCENT)
-        .fontColor($r('app.color.dialog_text_color'))
+        .fontColor($r('app.color.launcher_text_title_color'))
         .fontSize($r('app.float.dialog_text_privacy_size'))
         .textAlign(TextAlign.Center)
         .margin({ top: $r('app.float.dialog_text_privacy_top'),
@@ -31,7 +31,7 @@ export default struct CustomDialogComponent {
 
       Text($r('app.string.dialog_text_declaration_prompt'))
         .width(CommonConstants.DIALOG_COMPONENT_WIDTH_PERCENT)
-        .fontColor($r('app.color.dialog_text_color'))
+        .fontColor($r('app.color.launcher_text_title_color'))
         .fontSize($r('app.float.dialog_common_text_size'))
         .opacity($r('app.float.dialog_text_opacity'))
         .margin({ bottom: $r('app.float.dialog_text_declaration_bottom') })
@@ -62,7 +62,7 @@ export default struct CustomDialogComponent {
 }
 
 @Extend(Text) function fancy () {
-  .fontColor($r('app.color.dialog_fancy_text_color'))
+  .fontColor($r('app.color.dialog_text_statement_color'))
   .fontSize($r('app.float.dialog_fancy_text_size'))
   .textAlign(TextAlign.Center)
   .fontWeight(FontWeight.Medium)

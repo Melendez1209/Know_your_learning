@@ -110,7 +110,7 @@ struct LauncherPage {
           .appTextStyle(FontWeight.Normal,
           CommonConstants.LAUNCHER_TEXT_INTRODUCE_SPACING,
           $r('app.float.launcher_text_introduce_size'),
-          $r('app.color.launcher_text_introduce_color'))
+          $r('app.color.launcher_text_title_color'))
       }
       .width(CommonConstants.FULL_WIDTH)
       .height(CommonConstants.FULL_HEIGHT)

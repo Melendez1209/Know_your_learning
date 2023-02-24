@@ -55,6 +55,18 @@
     {
       "name": "go_back",
       "value": "Go Back"
+    },
+    {
+      "name": "home",
+      "value": "Home"
+    },
+    {
+      "name": "analysis",
+      "value": "Analysis"
+    },
+    {
+      "name": "account",
+      "value": "Account"
     }
   ]
 }

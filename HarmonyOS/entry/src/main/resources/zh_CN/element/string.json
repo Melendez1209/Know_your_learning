@@ -55,6 +55,18 @@
     {
       "name": "go_back",
       "value": "返回"
+    },
+    {
+      "name": "home",
+      "value": "首页"
+    },
+    {
+      "name": "analysis",
+      "value": "分析"
+    },
+    {
+      "name": "account",
+      "value": "账户"
     }
   ]
 }

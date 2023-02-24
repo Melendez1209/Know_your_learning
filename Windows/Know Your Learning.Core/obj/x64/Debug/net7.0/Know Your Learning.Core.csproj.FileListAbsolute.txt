@@ -1,0 +1,12 @@
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\bin\x64\Debug\net7.0\Know Your Learning.Core.deps.json
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\bin\x64\Debug\net7.0\Know Your Learning.Core.dll
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\bin\x64\Debug\net7.0\Know Your Learning.Core.pdb
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\Know Your Learning.Core.csproj.AssemblyReference.cache
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\Know Your Learning.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\Know Your Learning.Core.AssemblyInfoInputs.cache
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\Know Your Learning.Core.AssemblyInfo.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\Know Your Learning.Core.csproj.CoreCompileInputs.cache
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\Know Your Learning.Core.dll
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\refint\Know Your Learning.Core.dll
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\Know Your Learning.Core.pdb
+D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\obj\x64\Debug\net7.0\ref\Know Your Learning.Core.dll
