@@ -1,28 +1,43 @@
 ﻿using System.Reflection;
 using System.Windows.Input;
-
+using Windows.ApplicationModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-
 using Know_Your_Learning.Contracts.Services;
 using Know_Your_Learning.Helpers;
-
 using Microsoft.UI.Xaml;
-
-using Windows.ApplicationModel;
 
 namespace Know_Your_Learning.ViewModels;
 
 public class SettingsViewModel : ObservableRecipient
 {
-    private readonly IThemeSelectorService _themeSelectorService;
     private ElementTheme _elementTheme;
     private string _versionDescription;
+
+    public SettingsViewModel(IThemeSelectorService themeSelectorService)
+    {
+        var themeSelectorService1 = themeSelectorService;
+        _elementTheme = themeSelectorService1.Theme;
+        _versionDescription = GetVersionDescription();
+
+        async void Execute(ElementTheme param)
+        {
+            if (ElementTheme == param)
+            {
+                return;
+            }
+
+            ElementTheme = param;
+            await themeSelectorService1.SetThemeAsync(param);
+        }
+
+        SwitchThemeCommand = new RelayCommand<ElementTheme>(Execute);
+    }
 
     public ElementTheme ElementTheme
     {
         get => _elementTheme;
-        set => SetProperty(ref _elementTheme, value);
+        private set => SetProperty(ref _elementTheme, value);
     }
 
     public string VersionDescription
@@ -36,38 +51,23 @@ public class SettingsViewModel : ObservableRecipient
         get;
     }
 
-    public SettingsViewModel(IThemeSelectorService themeSelectorService)
-    {
-        _themeSelectorService = themeSelectorService;
-        _elementTheme = _themeSelectorService.Theme;
-        _versionDescription = GetVersionDescription();
-
-        SwitchThemeCommand = new RelayCommand<ElementTheme>(
-            async (param) =>
-            {
-                if (ElementTheme != param)
-                {
-                    ElementTheme = param;
-                    await _themeSelectorService.SetThemeAsync(param);
-                }
-            });
-    }
-
     private static string GetVersionDescription()
     {
         Version version;
 
-        if (RuntimeHelper.IsMSIX)
+        if (RuntimeHelper.IsMsix)
         {
             var packageVersion = Package.Current.Id.Version;
 
-            version = new(packageVersion.Major, packageVersion.Minor, packageVersion.Build, packageVersion.Revision);
+            version = new Version(packageVersion.Major, packageVersion.Minor, packageVersion.Build,
+                packageVersion.Revision);
         }
         else
         {
             version = Assembly.GetExecutingAssembly().GetName().Version!;
         }
 
-        return $"{"AppDisplayName".GetLocalized()} - {version.Major}.{version.Minor}.{version.Build}.{version.Revision}";
+        return
+            $"{"AppDisplayName".GetLocalized()} - {version.Major}.{version.Minor}.{version.Build}.{version.Revision}";
     }
 }

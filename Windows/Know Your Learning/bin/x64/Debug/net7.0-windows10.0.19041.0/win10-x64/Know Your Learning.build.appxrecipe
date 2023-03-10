@@ -15,7 +15,7 @@
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <WindowsSdkPath></WindowsSdkPath>
     <LayoutDir>D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
@@ -33,6 +33,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Know Your Learning.dll">
       <PackagePath>Know Your Learning.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Know Your Learning.dll.config">
+      <PackagePath>Know Your Learning.dll.config</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -736,7 +739,7 @@
     <AppxPackagedFile Include="C:\Users\Melendez\.nuget\packages\microsoft.windowsappsdk\1.2.230118.102\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\bin\Debug\net7.0\Know Your Learning.Core.dll">
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning.Core\bin\x64\Debug\net7.0\Know Your Learning.Core.dll">
       <PackagePath>Know Your Learning.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Melendez\.nuget\packages\microsoft.xaml.behaviors.winui.managed\2.0.9\lib\net5.0-windows10.0.17763.0\Microsoft.Xaml.Interactions.pri">
@@ -748,14 +751,74 @@
     <AppxPackagedFile Include="C:\Users\Melendez\.nuget\packages\winuiex\2.1.0\lib\net6.0-windows10.0.18362\WinUIEx.pri">
       <PackagePath>WinUIEx.pri</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\MainPage\education.png">
+      <PackagePath>Assets\MainPage\education.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
@@ -763,14 +826,38 @@
     <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\StoreLogo.backup.png">
+      <PackagePath>Assets\StoreLogo.backup.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\WindowIcon.ico">
-      <PackagePath>Assets\WindowIcon.ico</PackagePath>
+    <AppxPackagedFile Include="D:\Codes\Know_your_learning\Windows\Know Your Learning\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

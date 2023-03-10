@@ -1,56 +1,45 @@
-﻿using Know_Your_Learning.Contracts.Services;
+﻿using Windows.Storage;
+using Know_Your_Learning.Contracts.Services;
 using Know_Your_Learning.Core.Contracts.Services;
 using Know_Your_Learning.Core.Helpers;
 using Know_Your_Learning.Helpers;
 using Know_Your_Learning.Models;
-
 using Microsoft.Extensions.Options;
-
-using Windows.ApplicationModel;
-using Windows.Storage;
 
 namespace Know_Your_Learning.Services;
 
 public class LocalSettingsService : ILocalSettingsService
 {
-    private const string _defaultApplicationDataFolder = "Know Your Learning/ApplicationData";
-    private const string _defaultLocalSettingsFile = "LocalSettings.json";
+    private const string DefaultApplicationDataFolder = "Know Your Learning/ApplicationData";
+    private const string DefaultLocalSettingsFile = "LocalSettings.json";
+    private readonly string _applicationDataFolder;
 
     private readonly IFileService _fileService;
-    private readonly LocalSettingsOptions _options;
 
-    private readonly string _localApplicationData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
-    private readonly string _applicationDataFolder;
+    private readonly string _localApplicationData =
+        Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+
     private readonly string _localsettingsFile;
 
-    private IDictionary<string, object> _settings;
-
     private bool _isInitialized;
+
+    private IDictionary<string, object> _settings;
 
     public LocalSettingsService(IFileService fileService, IOptions<LocalSettingsOptions> options)
     {
         _fileService = fileService;
-        _options = options.Value;
+        var options1 = options.Value;
 
-        _applicationDataFolder = Path.Combine(_localApplicationData, _options.ApplicationDataFolder ?? _defaultApplicationDataFolder);
-        _localsettingsFile = _options.LocalSettingsFile ?? _defaultLocalSettingsFile;
+        _applicationDataFolder = Path.Combine(_localApplicationData,
+            options1.ApplicationDataFolder ?? DefaultApplicationDataFolder);
+        _localsettingsFile = options1.LocalSettingsFile ?? DefaultLocalSettingsFile;
 
         _settings = new Dictionary<string, object>();
     }
 
-    private async Task InitializeAsync()
-    {
-        if (!_isInitialized)
-        {
-            _settings = await Task.Run(() => _fileService.Read<IDictionary<string, object>>(_applicationDataFolder, _localsettingsFile)) ?? new Dictionary<string, object>();
-
-            _isInitialized = true;
-        }
-    }
-
     public async Task<T?> ReadSettingAsync<T>(string key)
     {
-        if (RuntimeHelper.IsMSIX)
+        if (RuntimeHelper.IsMsix)
         {
             if (ApplicationData.Current.LocalSettings.Values.TryGetValue(key, out var obj))
             {
@@ -61,7 +50,7 @@ public class LocalSettingsService : ILocalSettingsService
         {
             await InitializeAsync();
 
-            if (_settings != null && _settings.TryGetValue(key, out var obj))
+            if (_settings.TryGetValue(key, out var obj))
             {
                 return await Json.ToObjectAsync<T>((string)obj);
             }
@@ -72,7 +61,7 @@ public class LocalSettingsService : ILocalSettingsService
 
     public async Task SaveSettingAsync<T>(string key, T value)
     {
-        if (RuntimeHelper.IsMSIX)
+        if (RuntimeHelper.IsMsix)
         {
             ApplicationData.Current.LocalSettings.Values[key] = await Json.StringifyAsync(value);
         }
@@ -83,6 +72,19 @@ public class LocalSettingsService : ILocalSettingsService
             _settings[key] = await Json.StringifyAsync(value);
 
             await Task.Run(() => _fileService.Save(_applicationDataFolder, _localsettingsFile, _settings));
+        }
+    }
+
+    private async Task InitializeAsync()
+    {
+        if (!_isInitialized)
+        {
+            _settings = await Task.Run(() =>
+                            _fileService.Read<IDictionary<string, object>>(_applicationDataFolder,
+                                _localsettingsFile)) ??
+                        new Dictionary<string, object>();
+
+            _isInitialized = true;
         }
     }
 }

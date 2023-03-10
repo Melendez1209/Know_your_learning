@@ -246,46 +246,46 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
             _typeNameTable[18] = "Know_Your_Learning.MainWindow";
             _typeNameTable[19] = "Microsoft.UI.Xaml.Thickness";
             _typeNameTable[20] = "Microsoft.UI.Xaml.CornerRadius";
-            _typeNameTable[21] = "Know_Your_Learning.Views.MainPage";
+            _typeNameTable[21] = "Know_Your_Learning.Views.Pages.ImportPage";
             _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.UserControl";
-            _typeNameTable[24] = "Know_Your_Learning.ViewModels.MainViewModel";
-            _typeNameTable[25] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
-            _typeNameTable[26] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
-            _typeNameTable[27] = "Know_Your_Learning.Helpers.EnumToBooleanConverter";
-            _typeNameTable[28] = "Know_Your_Learning.Views.SettingsPage";
-            _typeNameTable[29] = "Know_Your_Learning.ViewModels.SettingsViewModel";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[33] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[34] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[36] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[38] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[46] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[47] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[48] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[49] = "Microsoft.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[50] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
-            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
-            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.InfoBadge";
-            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.Control";
-            _typeNameTable[55] = "Know_Your_Learning.Helpers.NavigationHelper";
-            _typeNameTable[56] = "Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior";
-            _typeNameTable[57] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>";
-            _typeNameTable[58] = "Microsoft.Xaml.Interactivity.Behavior";
-            _typeNameTable[59] = "Know_Your_Learning.Behaviors.NavigationViewHeaderMode";
-            _typeNameTable[60] = "Know_Your_Learning.Views.ShellPage";
+            _typeNameTable[24] = "Know_Your_Learning.Views.Pages.MainPage";
+            _typeNameTable[25] = "Know_Your_Learning.ViewModels.MainViewModel";
+            _typeNameTable[26] = "CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient";
+            _typeNameTable[27] = "CommunityToolkit.Mvvm.ComponentModel.ObservableObject";
+            _typeNameTable[28] = "Know_Your_Learning.Helpers.EnumToBooleanConverter";
+            _typeNameTable[29] = "Know_Your_Learning.Views.Pages.SettingsPage";
+            _typeNameTable[30] = "Know_Your_Learning.ViewModels.SettingsViewModel";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.NavigationView";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
+            _typeNameTable[34] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[37] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[39] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[41] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
+            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
+            _typeNameTable[45] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
+            _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
+            _typeNameTable[47] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[48] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[49] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[50] = "Microsoft.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[51] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
+            _typeNameTable[52] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
+            _typeNameTable[53] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[54] = "Microsoft.UI.Xaml.Controls.InfoBadge";
+            _typeNameTable[55] = "Microsoft.UI.Xaml.Controls.Control";
+            _typeNameTable[56] = "Know_Your_Learning.Helpers.NavigationHelper";
+            _typeNameTable[57] = "Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior";
+            _typeNameTable[58] = "Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>";
+            _typeNameTable[59] = "Microsoft.Xaml.Interactivity.Behavior";
+            _typeNameTable[60] = "Know_Your_Learning.Views.Pages.ShellPage";
             _typeNameTable[61] = "Know_Your_Learning.ViewModels.ShellViewModel";
 
             _typeTable = new global::System.Type[62];
@@ -310,46 +310,46 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
             _typeTable[18] = typeof(global::Know_Your_Learning.MainWindow);
             _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Thickness);
             _typeTable[20] = typeof(global::Microsoft.UI.Xaml.CornerRadius);
-            _typeTable[21] = typeof(global::Know_Your_Learning.Views.MainPage);
+            _typeTable[21] = typeof(global::Know_Your_Learning.Views.Pages.ImportPage);
             _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
-            _typeTable[24] = typeof(global::Know_Your_Learning.ViewModels.MainViewModel);
-            _typeTable[25] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
-            _typeTable[26] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
-            _typeTable[27] = typeof(global::Know_Your_Learning.Helpers.EnumToBooleanConverter);
-            _typeTable[28] = typeof(global::Know_Your_Learning.Views.SettingsPage);
-            _typeTable[29] = typeof(global::Know_Your_Learning.ViewModels.SettingsViewModel);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[33] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[47] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[48] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[49] = typeof(global::Microsoft.UI.Xaml.DependencyObjectCollection);
-            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
-            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
-            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
-            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
-            _typeTable[55] = typeof(global::Know_Your_Learning.Helpers.NavigationHelper);
-            _typeTable[56] = typeof(global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior);
-            _typeTable[57] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>);
-            _typeTable[58] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
-            _typeTable[59] = typeof(global::Know_Your_Learning.Behaviors.NavigationViewHeaderMode);
-            _typeTable[60] = typeof(global::Know_Your_Learning.Views.ShellPage);
+            _typeTable[24] = typeof(global::Know_Your_Learning.Views.Pages.MainPage);
+            _typeTable[25] = typeof(global::Know_Your_Learning.ViewModels.MainViewModel);
+            _typeTable[26] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient);
+            _typeTable[27] = typeof(global::CommunityToolkit.Mvvm.ComponentModel.ObservableObject);
+            _typeTable[28] = typeof(global::Know_Your_Learning.Helpers.EnumToBooleanConverter);
+            _typeTable[29] = typeof(global::Know_Your_Learning.Views.Pages.SettingsPage);
+            _typeTable[30] = typeof(global::Know_Your_Learning.ViewModels.SettingsViewModel);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
+            _typeTable[34] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
+            _typeTable[41] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
+            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
+            _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
+            _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
+            _typeTable[47] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[48] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[49] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[50] = typeof(global::Microsoft.UI.Xaml.DependencyObjectCollection);
+            _typeTable[51] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
+            _typeTable[52] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
+            _typeTable[53] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[54] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBadge);
+            _typeTable[55] = typeof(global::Microsoft.UI.Xaml.Controls.Control);
+            _typeTable[56] = typeof(global::Know_Your_Learning.Helpers.NavigationHelper);
+            _typeTable[57] = typeof(global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior);
+            _typeTable[58] = typeof(global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>);
+            _typeTable[59] = typeof(global::Microsoft.Xaml.Interactivity.Behavior);
+            _typeTable[60] = typeof(global::Know_Your_Learning.Views.Pages.ShellPage);
             _typeTable[61] = typeof(global::Know_Your_Learning.ViewModels.ShellViewModel);
         }
 
@@ -389,17 +389,18 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
         private object Activate_4_WindowEx() { return new global::WinUIEx.WindowEx(); }
         private object Activate_15_MicaSystemBackdrop() { return new global::WinUIEx.MicaSystemBackdrop(); }
         private object Activate_18_MainWindow() { return new global::Know_Your_Learning.MainWindow(); }
-        private object Activate_21_MainPage() { return new global::Know_Your_Learning.Views.MainPage(); }
-        private object Activate_24_MainViewModel() { return new global::Know_Your_Learning.ViewModels.MainViewModel(); }
-        private object Activate_27_EnumToBooleanConverter() { return new global::Know_Your_Learning.Helpers.EnumToBooleanConverter(); }
-        private object Activate_28_SettingsPage() { return new global::Know_Your_Learning.Views.SettingsPage(); }
-        private object Activate_30_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_45_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_48_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_50_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
-        private object Activate_53_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
-        private object Activate_55_NavigationHelper() { return new global::Know_Your_Learning.Helpers.NavigationHelper(); }
-        private object Activate_56_NavigationViewHeaderBehavior() { return new global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior(); }
+        private object Activate_21_ImportPage() { return new global::Know_Your_Learning.Views.Pages.ImportPage(); }
+        private object Activate_24_MainPage() { return new global::Know_Your_Learning.Views.Pages.MainPage(); }
+        private object Activate_25_MainViewModel() { return new global::Know_Your_Learning.ViewModels.MainViewModel(); }
+        private object Activate_28_EnumToBooleanConverter() { return new global::Know_Your_Learning.Helpers.EnumToBooleanConverter(); }
+        private object Activate_29_SettingsPage() { return new global::Know_Your_Learning.Views.Pages.SettingsPage(); }
+        private object Activate_31_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
+        private object Activate_46_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
+        private object Activate_49_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_51_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
+        private object Activate_54_InfoBadge() { return new global::Microsoft.UI.Xaml.Controls.InfoBadge(); }
+        private object Activate_56_NavigationHelper() { return new global::Know_Your_Learning.Helpers.NavigationHelper(); }
+        private object Activate_57_NavigationViewHeaderBehavior() { return new global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -407,13 +408,13 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_33_IList(object instance, object item)
+        private void VectorAdd_34_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_48_BehaviorCollection(object instance, object item)
+        private void VectorAdd_49_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Microsoft.UI.Xaml.DependencyObject)item;
@@ -587,10 +588,9 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 21:   //  Know_Your_Learning.Views.MainPage
+            case 21:   //  Know_Your_Learning.Views.Pages.ImportPage
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_21_MainPage;
-                userType.AddMemberName("ViewModel");
+                userType.Activator = Activate_21_ImportPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -603,48 +603,56 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 24:   //  Know_Your_Learning.ViewModels.MainViewModel
-                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
-                userType.SetIsReturnTypeStub();
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 25:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
-                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
-                xamlType = userType;
-                break;
-
-            case 26:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
-                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 27:   //  Know_Your_Learning.Helpers.EnumToBooleanConverter
-                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_27_EnumToBooleanConverter;
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 28:   //  Know_Your_Learning.Views.SettingsPage
+            case 24:   //  Know_Your_Learning.Views.Pages.MainPage
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_28_SettingsPage;
+                userType.Activator = Activate_24_MainPage;
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 29:   //  Know_Your_Learning.ViewModels.SettingsViewModel
+            case 25:   //  Know_Your_Learning.ViewModels.MainViewModel
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 30:   //  Microsoft.UI.Xaml.Controls.NavigationView
+            case 26:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient
+                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableObject"));
+                xamlType = userType;
+                break;
+
+            case 27:   //  CommunityToolkit.Mvvm.ComponentModel.ObservableObject
+                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 28:   //  Know_Your_Learning.Helpers.EnumToBooleanConverter
+                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_28_EnumToBooleanConverter;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 29:   //  Know_Your_Learning.Views.Pages.SettingsPage
+                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_29_SettingsPage;
+                userType.AddMemberName("ViewModel");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 30:   //  Know_Your_Learning.ViewModels.SettingsViewModel
+                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 31:   //  Microsoft.UI.Xaml.Controls.NavigationView
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_30_NavigationView;
+                userType.Activator = Activate_31_NavigationView;
                 userType.AddMemberName("IsBackButtonVisible");
                 userType.AddMemberName("IsBackEnabled");
                 userType.AddMemberName("SelectedItem");
@@ -685,11 +693,11 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.Controls.ContentControl
+            case 32:   //  Microsoft.UI.Xaml.Controls.ContentControl
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 32:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+            case 33:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
@@ -697,26 +705,26 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 33:   //  System.Collections.Generic.IList`1<Object>
+            case 34:   //  System.Collections.Generic.IList`1<Object>
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_33_IList;
+                userType.CollectionAdd = VectorAdd_34_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 34:   //  Microsoft.UI.Xaml.DataTemplate
+            case 35:   //  Microsoft.UI.Xaml.DataTemplate
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
+            case 36:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 36:   //  Microsoft.UI.Xaml.UIElement
+            case 37:   //  Microsoft.UI.Xaml.UIElement
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 37:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+            case 38:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
@@ -724,26 +732,26 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 38:   //  Microsoft.UI.Xaml.Style
+            case 39:   //  Microsoft.UI.Xaml.Style
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 39:   //  Microsoft.UI.Xaml.Controls.StyleSelector
+            case 40:   //  Microsoft.UI.Xaml.Controls.StyleSelector
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 40:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
+            case 41:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 41:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+            case 42:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+            case 43:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
@@ -753,14 +761,14 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+            case 44:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
-            case 44:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+            case 45:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
@@ -768,36 +776,36 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 45:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+            case 46:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 46:   //  Microsoft.UI.Xaml.DependencyObject
+            case 47:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 47:   //  Microsoft.Xaml.Interactivity.Interaction
+            case 48:   //  Microsoft.Xaml.Interactivity.Interaction
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Behaviors");
                 xamlType = userType;
                 break;
 
-            case 48:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+            case 49:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_48_BehaviorCollection;
+                userType.CollectionAdd = VectorAdd_49_BehaviorCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 49:   //  Microsoft.UI.Xaml.DependencyObjectCollection
+            case 50:   //  Microsoft.UI.Xaml.DependencyObjectCollection
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 50:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
+            case 51:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_50_NavigationViewItem;
+                userType.Activator = Activate_51_NavigationViewItem;
                 userType.AddMemberName("Icon");
                 userType.AddMemberName("CompactPaneLength");
                 userType.AddMemberName("HasUnrealizedChildren");
@@ -810,67 +818,55 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 51:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+            case 52:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
-            case 52:   //  Microsoft.UI.Xaml.Controls.IconElement
+            case 53:   //  Microsoft.UI.Xaml.Controls.IconElement
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 53:   //  Microsoft.UI.Xaml.Controls.InfoBadge
+            case 54:   //  Microsoft.UI.Xaml.Controls.InfoBadge
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Control"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 54:   //  Microsoft.UI.Xaml.Controls.Control
+            case 55:   //  Microsoft.UI.Xaml.Controls.Control
                 xamlType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 55:   //  Know_Your_Learning.Helpers.NavigationHelper
+            case 56:   //  Know_Your_Learning.Helpers.NavigationHelper
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_55_NavigationHelper;
+                userType.Activator = Activate_56_NavigationHelper;
                 userType.AddMemberName("NavigateTo");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 56:   //  Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior
+            case 57:   //  Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>"));
-                userType.Activator = Activate_56_NavigationViewHeaderBehavior;
+                userType.Activator = Activate_57_NavigationViewHeaderBehavior;
                 userType.AddMemberName("DefaultHeader");
                 userType.AddMemberName("DefaultHeaderTemplate");
-                userType.AddMemberName("HeaderMode");
-                userType.AddMemberName("HeaderContext");
-                userType.AddMemberName("HeaderTemplate");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 57:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>
+            case 58:   //  Microsoft.Xaml.Interactivity.Behavior`1<Microsoft.UI.Xaml.Controls.NavigationView>
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Xaml.Interactivity.Behavior"));
                 userType.AddMemberName("AssociatedObject");
                 xamlType = userType;
                 break;
 
-            case 58:   //  Microsoft.Xaml.Interactivity.Behavior
+            case 59:   //  Microsoft.Xaml.Interactivity.Behavior
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 xamlType = userType;
                 break;
 
-            case 59:   //  Know_Your_Learning.Behaviors.NavigationViewHeaderMode
-                userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
-                userType.AddEnumValue("Always", global::Know_Your_Learning.Behaviors.NavigationViewHeaderMode.Always);
-                userType.AddEnumValue("Never", global::Know_Your_Learning.Behaviors.NavigationViewHeaderMode.Never);
-                userType.AddEnumValue("Minimal", global::Know_Your_Learning.Behaviors.NavigationViewHeaderMode.Minimal);
-                userType.SetIsLocalType();
-                xamlType = userType;
-                break;
-
-            case 60:   //  Know_Your_Learning.Views.ShellPage
+            case 60:   //  Know_Your_Learning.Views.Pages.ShellPage
                 userType = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
@@ -1319,12 +1315,12 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
         }
         private object get_39_MainPage_ViewModel(object instance)
         {
-            var that = (global::Know_Your_Learning.Views.MainPage)instance;
+            var that = (global::Know_Your_Learning.Views.Pages.MainPage)instance;
             return that.ViewModel;
         }
         private object get_40_SettingsPage_ViewModel(object instance)
         {
-            var that = (global::Know_Your_Learning.Views.SettingsPage)instance;
+            var that = (global::Know_Your_Learning.Views.Pages.SettingsPage)instance;
             return that.ViewModel;
         }
         private object get_41_NavigationView_IsBackButtonVisible(object instance)
@@ -1803,33 +1799,9 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
             var that = (global::Microsoft.Xaml.Interactivity.Behavior<global::Microsoft.UI.Xaml.Controls.NavigationView>)instance;
             return that.AssociatedObject;
         }
-        private object get_93_NavigationViewHeaderBehavior_HeaderMode(object instance)
+        private object get_93_ShellPage_ViewModel(object instance)
         {
-            return global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.GetHeaderMode((global::Microsoft.UI.Xaml.Controls.Page)instance);
-        }
-        private void set_93_NavigationViewHeaderBehavior_HeaderMode(object instance, object Value)
-        {
-            global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.SetHeaderMode((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::Know_Your_Learning.Behaviors.NavigationViewHeaderMode)Value);
-        }
-        private object get_94_NavigationViewHeaderBehavior_HeaderContext(object instance)
-        {
-            return global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.GetHeaderContext((global::Microsoft.UI.Xaml.Controls.Page)instance);
-        }
-        private void set_94_NavigationViewHeaderBehavior_HeaderContext(object instance, object Value)
-        {
-            global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.SetHeaderContext((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::System.Object)Value);
-        }
-        private object get_95_NavigationViewHeaderBehavior_HeaderTemplate(object instance)
-        {
-            return global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.GetHeaderTemplate((global::Microsoft.UI.Xaml.Controls.Page)instance);
-        }
-        private void set_95_NavigationViewHeaderBehavior_HeaderTemplate(object instance, object Value)
-        {
-            global::Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.SetHeaderTemplate((global::Microsoft.UI.Xaml.Controls.Page)instance, (global::Microsoft.UI.Xaml.DataTemplate)Value);
-        }
-        private object get_96_ShellPage_ViewModel(object instance)
-        {
-            var that = (global::Know_Your_Learning.Views.ShellPage)instance;
+            var that = (global::Know_Your_Learning.Views.Pages.ShellPage)instance;
             return that.ViewModel;
         }
 
@@ -2075,14 +2047,14 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlMember.Getter = get_38_CornerRadius_BottomLeft;
                 xamlMember.Setter = set_38_CornerRadius_BottomLeft;
                 break;
-            case "Know_Your_Learning.Views.MainPage.ViewModel":
-                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Views.MainPage");
+            case "Know_Your_Learning.Views.Pages.MainPage.ViewModel":
+                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Views.Pages.MainPage");
                 xamlMember = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlMember(this, "ViewModel", "Know_Your_Learning.ViewModels.MainViewModel");
                 xamlMember.Getter = get_39_MainPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "Know_Your_Learning.Views.SettingsPage.ViewModel":
-                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Views.SettingsPage");
+            case "Know_Your_Learning.Views.Pages.SettingsPage.ViewModel":
+                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Views.Pages.SettingsPage");
                 xamlMember = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlMember(this, "ViewModel", "Know_Your_Learning.ViewModels.SettingsViewModel");
                 xamlMember.Getter = get_40_SettingsPage_ViewModel;
                 xamlMember.SetIsReadOnly();
@@ -2451,37 +2423,10 @@ namespace Know_Your_Learning.Know_Your_Learning_XamlTypeInfo
                 xamlMember.Getter = get_92_Behavior_AssociatedObject;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.HeaderMode":
-                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior");
-                xamlMember = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlMember(this, "HeaderMode", "Know_Your_Learning.Behaviors.NavigationViewHeaderMode");
-                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_93_NavigationViewHeaderBehavior_HeaderMode;
-                xamlMember.Setter = set_93_NavigationViewHeaderBehavior_HeaderMode;
-                break;
-            case "Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.HeaderContext":
-                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior");
-                xamlMember = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlMember(this, "HeaderContext", "Object");
-                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_94_NavigationViewHeaderBehavior_HeaderContext;
-                xamlMember.Setter = set_94_NavigationViewHeaderBehavior_HeaderContext;
-                break;
-            case "Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior.HeaderTemplate":
-                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Behaviors.NavigationViewHeaderBehavior");
-                xamlMember = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.SetTargetTypeName("Microsoft.UI.Xaml.Controls.Page");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_95_NavigationViewHeaderBehavior_HeaderTemplate;
-                xamlMember.Setter = set_95_NavigationViewHeaderBehavior_HeaderTemplate;
-                break;
-            case "Know_Your_Learning.Views.ShellPage.ViewModel":
-                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Views.ShellPage");
+            case "Know_Your_Learning.Views.Pages.ShellPage.ViewModel":
+                userType = (global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Know_Your_Learning.Views.Pages.ShellPage");
                 xamlMember = new global::Know_Your_Learning.Know_Your_Learning_XamlTypeInfo.XamlMember(this, "ViewModel", "Know_Your_Learning.ViewModels.ShellViewModel");
-                xamlMember.Getter = get_96_ShellPage_ViewModel;
+                xamlMember.Getter = get_93_ShellPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

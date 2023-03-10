@@ -1,7 +1,5 @@
 ﻿using System.Text;
-
 using Know_Your_Learning.Core.Contracts.Services;
-
 using Newtonsoft.Json;
 
 namespace Know_Your_Learning.Core.Services;
@@ -11,24 +9,30 @@ public class FileService : IFileService
     public T Read<T>(string folderPath, string fileName)
     {
         var path = Path.Combine(folderPath, fileName);
-        if (File.Exists(path))
+        if (!File.Exists(path))
         {
-            var json = File.ReadAllText(path);
-            return JsonConvert.DeserializeObject<T>(json);
+            return default;
         }
 
-        return default;
+        var json = File.ReadAllText(path);
+        return JsonConvert.DeserializeObject<T>(json);
     }
 
     public void Save<T>(string folderPath, string fileName, T content)
     {
         if (!Directory.Exists(folderPath))
         {
-            Directory.CreateDirectory(folderPath);
+            if (folderPath != null)
+            {
+                Directory.CreateDirectory(folderPath);
+            }
         }
 
         var fileContent = JsonConvert.SerializeObject(content);
-        File.WriteAllText(Path.Combine(folderPath, fileName), fileContent, Encoding.UTF8);
+        if (folderPath != null)
+        {
+            File.WriteAllText(Path.Combine(folderPath, fileName), fileContent, Encoding.UTF8);
+        }
     }
 
     public void Delete(string folderPath, string fileName)

@@ -1,6 +1,4 @@
 ﻿using Know_Your_Learning.Contracts.Services;
-using Know_Your_Learning.Helpers;
-
 using Microsoft.UI.Xaml;
 
 namespace Know_Your_Learning.Services;
@@ -9,14 +7,18 @@ public class ThemeSelectorService : IThemeSelectorService
 {
     private const string SettingsKey = "AppBackgroundRequestedTheme";
 
-    public ElementTheme Theme { get; set; } = ElementTheme.Default;
-
     private readonly ILocalSettingsService _localSettingsService;
 
     public ThemeSelectorService(ILocalSettingsService localSettingsService)
     {
         _localSettingsService = localSettingsService;
     }
+
+    public ElementTheme Theme
+    {
+        get;
+        private set;
+    } = ElementTheme.Default;
 
     public async Task InitializeAsync()
     {
@@ -54,8 +56,6 @@ public class ThemeSelectorService : IThemeSelectorService
         return ElementTheme.Default;
     }
 
-    private async Task SaveThemeInSettingsAsync(ElementTheme theme)
-    {
+    private async Task SaveThemeInSettingsAsync(ElementTheme theme) =>
         await _localSettingsService.SaveSettingAsync(SettingsKey, theme.ToString());
-    }
 }

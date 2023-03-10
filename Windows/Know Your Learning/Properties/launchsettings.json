@@ -1,10 +1,10 @@
 ﻿{
-    "profiles": {
-      "Know Your Learning (Package)": {
-        "commandName": "MsixPackage"
-      },
-      "Know Your Learning (Unpackaged)": {
-        "commandName": "Project"
-      }
+  "profiles": {
+    "Know Your Learning (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Know Your Learning (Unpackaged)": {
+      "commandName": "Project"
     }
+  }
 }

@@ -1,61 +1,84 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows10.0.19041.0</TargetFramework>
-    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
-    <RootNamespace>Know_Your_Learning</RootNamespace>
-    <ApplicationIcon>Assets/WindowIcon.ico</ApplicationIcon>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Platforms>x86;x64;arm64</Platforms>
-    <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
-    <PublishProfile>Properties\PublishProfiles\win10-$(Platform).pubxml</PublishProfile>
-	<ImplicitUsings>enable</ImplicitUsings>
-	<Nullable>enable</Nullable>
-	<UseWinUI>true</UseWinUI>
-    <EnableMsixTooling>true</EnableMsixTooling>
-  </PropertyGroup>
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net7.0-windows10.0.19041.0</TargetFramework>
+        <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+        <RootNamespace>Know_Your_Learning</RootNamespace>
+        <ApplicationIcon>Assets/WindowIcon.ico</ApplicationIcon>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <Platforms>x86;x64;arm64</Platforms>
+        <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+        <PublishProfile>Properties\PublishProfiles\win10-$(Platform).pubxml</PublishProfile>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UseWinUI>true</UseWinUI>
+        <EnableMsixTooling>true</EnableMsixTooling>
+        <DefaultLanguage>zh-cn</DefaultLanguage>
+    </PropertyGroup>
+    <ItemGroup>
+        <Content Remove="Assets\Logo-256_256.png"/>
+        <Content Remove="Assets\SplashScreen.scale-100.png"/>
+        <Content Remove="Assets\SplashScreen.scale-125.png"/>
+        <Content Remove="Assets\SplashScreen.scale-150.png"/>
+        <Content Remove="Assets\SplashScreen.scale-400.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-unplated_targetsize-16.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-unplated_targetsize-256.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-unplated_targetsize-32.png"/>
+        <Content Remove="Assets\Square44x44Logo.altform-unplated_targetsize-48.png"/>
+        <Content Remove="Assets\Square44x44Logo.scale-100.png"/>
+        <Content Remove="Assets\Square44x44Logo.scale-125.png"/>
+        <Content Remove="Assets\Square44x44Logo.scale-150.png"/>
+        <Content Remove="Assets\Square44x44Logo.scale-400.png"/>
+        <Content Remove="Assets\Square44x44Logo.targetsize-16.png"/>
+        <Content Remove="Assets\Square44x44Logo.targetsize-24.png"/>
+        <Content Remove="Assets\Square44x44Logo.targetsize-256.png"/>
+        <Content Remove="Assets\Square44x44Logo.targetsize-32.png"/>
+        <Content Remove="Assets\Square44x44Logo.targetsize-48.png"/>
+        <Content Remove="Assets\WindowIcon.ico"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Remove="Views\ImportPage.xaml"/>
+        <None Remove="Views\UserControls\HeaderTile.xaml"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <Manifest Include="$(ApplicationManifest)" />
-  </ItemGroup>
+    <ItemGroup>
+        <Manifest Include="$(ApplicationManifest)"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="CommunityToolkit.Mvvm" Version="7.1.2" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
-    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230118.102" />
-    <PackageReference Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.9" />
-    <PackageReference Include="WinUIEx" Version="2.1" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="CommunityToolkit.Mvvm" Version="7.1.2"/>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1"/>
+        <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.2.230118.102"/>
+        <PackageReference Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.9"/>
+        <PackageReference Include="WinUIEx" Version="2.1"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Know Your Learning.Core\Know Your Learning.Core.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Update="appsettings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Know Your Learning.Core\Know Your Learning.Core.csproj"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Update="appsettings.json">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <Page Update="Views\ImportPage.xaml">
+            <Generator>MSBuild:Compile</Generator>
+        </Page>
+    </ItemGroup>
 
-  <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
-    <ProjectCapability Include="Msix" />
-  </ItemGroup>
+    <ItemGroup Condition="'$(DisableMsixProjectCapabilityAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
+        <ProjectCapability Include="Msix"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <EmbeddedResource Update="Strings\zh-cn\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Views\Pages\"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="Strings\zh-cn\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  
-  <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
-    <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
-  </PropertyGroup>
+    <PropertyGroup Condition="'$(DisableHasPackageAndPublishMenuAddedByProject)'!='true' and '$(EnableMsixTooling)'=='true'">
+        <HasPackageAndPublishMenu>true</HasPackageAndPublishMenu>
+    </PropertyGroup>
 </Project>

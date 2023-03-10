@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AppIconSource>D:\Melendez\下载文件\Logo.png</AppIconSource>
+    <SplashScreenSource>D:\Melendez\下载文件\Logo.png</SplashScreenSource>
+    <Source>D:\Melendez\下载文件\Logo.png</Source>
+    <SmallTileSource>D:\Melendez\下载文件\Logo.png</SmallTileSource>
+    <MediumTileSource>D:\Melendez\下载文件\Logo.png</MediumTileSource>
+    <WideTileSource>D:\Melendez\下载文件\Logo.png</WideTileSource>
+    <LargeTileSource>D:\Melendez\下载文件\Logo.png</LargeTileSource>
+    <BadgeLogoSource>D:\Melendez\下载文件\Logo.png</BadgeLogoSource>
+    <PackageLogoSource>D:\Melendez\下载文件\Logo.png</PackageLogoSource>
+  </PropertyGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Page Update="Views\UserControls\HeaderTile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

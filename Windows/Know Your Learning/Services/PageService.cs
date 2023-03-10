@@ -1,9 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
-
 using Know_Your_Learning.Contracts.Services;
 using Know_Your_Learning.ViewModels;
-using Know_Your_Learning.Views;
-
+using Know_Your_Learning.Views.Pages;
 using Microsoft.UI.Xaml.Controls;
 
 namespace Know_Your_Learning.Services;
@@ -47,7 +45,8 @@ public class PageService : IPageService
             var type = typeof(V);
             if (_pages.Any(p => p.Value == type))
             {
-                throw new ArgumentException($"This type is already configured with key {_pages.First(p => p.Value == type).Key}");
+                throw new ArgumentException(
+                    $"This type is already configured with key {_pages.First(p => p.Value == type).Key}");
             }
 
             _pages.Add(key, type);

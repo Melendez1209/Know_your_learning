@@ -4,7 +4,4 @@ namespace Know_Your_Learning.ViewModels;
 
 public class MainViewModel : ObservableRecipient
 {
-    public MainViewModel()
-    {
-    }
 }

@@ -1,6 +1,5 @@
 ﻿using Know_Your_Learning.Contracts.Services;
 using Know_Your_Learning.ViewModels;
-
 using Microsoft.UI.Xaml;
 
 namespace Know_Your_Learning.Activation;
@@ -14,11 +13,8 @@ public class DefaultActivationHandler : ActivationHandler<LaunchActivatedEventAr
         _navigationService = navigationService;
     }
 
-    protected override bool CanHandleInternal(LaunchActivatedEventArgs args)
-    {
-        // None of the ActivationHandlers has handled the activation.
-        return _navigationService.Frame?.Content == null;
-    }
+    protected override bool CanHandleInternal(LaunchActivatedEventArgs args) =>
+        _navigationService.Frame?.Content == null;
 
     protected async override Task HandleInternalAsync(LaunchActivatedEventArgs args)
     {

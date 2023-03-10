@@ -5,9 +5,6 @@ D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-wind
 D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\FontSizes.xbf
 D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\TextBlock.xbf
 D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\Thickness.xbf
-D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\MainPage.xbf
-D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.xbf
-D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\ShellPage.xbf
 D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Know Your Learning.deps.json
 D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Know Your Learning.runtimeconfig.json
 D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Know Your Learning.dll
@@ -252,29 +249,17 @@ D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-wind
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\App.g.cs
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\MainWindow.g.i.cs
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\MainWindow.g.cs
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\MainPage.g.i.cs
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\MainPage.g.cs
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.g.i.cs
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.g.cs
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\ShellPage.g.i.cs
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\ShellPage.g.cs
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlTypeInfo.g.cs
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\App.xaml
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\MainWindow.xaml
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\FontSizes.xaml
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\TextBlock.xaml
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\Thickness.xaml
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\MainPage.xaml
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.xaml
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\ShellPage.xaml
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\App.xbf
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\MainWindow.xbf
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\FontSizes.xbf
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\TextBlock.xbf
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Styles\Thickness.xbf
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\MainPage.xbf
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.xbf
-D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\ShellPage.xbf
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\XamlSaveStateFile.xml
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Know Your Learning.GeneratedMSBuildEditorConfig.editorconfig
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Know Your Learning.AssemblyInfoInputs.cache
@@ -302,3 +287,24 @@ D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-wind
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Know Your Learning.dll.config
+D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ImportPage.xbf
+D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\MainPage.xbf
+D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\SettingsPage.xbf
+D:\Codes\Know_your_learning\Windows\Know Your Learning\bin\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ShellPage.xbf
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ImportPage.g.i.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ImportPage.g.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\MainPage.g.i.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\MainPage.g.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\SettingsPage.g.i.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\SettingsPage.g.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ShellPage.g.i.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ShellPage.g.cs
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ImportPage.xaml
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\MainPage.xaml
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\SettingsPage.xaml
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ShellPage.xaml
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ImportPage.xbf
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\MainPage.xbf
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\SettingsPage.xbf
+D:\Codes\Know_your_learning\Windows\Know Your Learning\obj\x64\Debug\net7.0-windows10.0.19041.0\win10-x64\Views\Pages\ShellPage.xbf
